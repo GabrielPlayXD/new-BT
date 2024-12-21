@@ -82,8 +82,10 @@ header ul a:hover {
 }
 
 .img-fundo img {
-    height: auto;
+    height: 50%;
+    width: 50%;
     opacity: 1;
+
 }
 
 /* Isso aqui mantem todo conteudo na vertical sem precisar deslizar pra horizontal */
