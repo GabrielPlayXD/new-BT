@@ -2,6 +2,9 @@
     display: inline˜;
 }
 
+body{
+    background-color: rgb(18, 14, 17);
+}
 
 header ul{
     list-style: none;
@@ -36,7 +39,7 @@ header {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background: linear-gradient(90deg, #6a11cb, #2575fc); */
+    background: linear-gradient(90deg, #6a11cb, #2575fc); 
     border-bottom: 2px solid #ddd;
     box-shadow: 0 4px 6px rgba (0, 0, 0, 0.1);
     z-index: 1000;
