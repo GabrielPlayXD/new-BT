@@ -75,13 +75,9 @@ header ul a:hover {
 
 /* Configruações da logo do bt*/
 .img-fundo {
-    display: flex;
+    display: Flex;
     justify-content: center;
     align-items: center;
-    height: calc(50vh - 80px);
-    width: 50%;
-    text-align: center;
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
     margin-top: 100px; 
 }
 

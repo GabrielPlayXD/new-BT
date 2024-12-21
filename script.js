@@ -1,6 +1,6 @@
 /* Transição de opacidade da header */
 const header = document.querySelector('header');
-const imgFundo = document.querySelector('.img-fundo');
+
 
 
 window.addEventListener('scroll', () => {
@@ -11,5 +11,5 @@ window.addEventListener('scroll', () => {
     const imgOpacity = Math.max(1 - scrollPosition / 500, 0); 
 
     header.style.opacity = headerOpacity;
-    imgFundo.style.opacity = imgOpacity;
+
 });
