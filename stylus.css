@@ -79,8 +79,7 @@ header ul a:hover {
 /* Configruações da logo do bt*/
 
 .img-fundo img {
-    width: 1vh;
-    height: 1vh;
+    padding: 1vh;
 
 
 }
