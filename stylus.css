@@ -49,6 +49,16 @@ header ul a:hover {
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
+/* Configurações da area 1 */
+.area-1 {
+    height: 200px;
+    width: 100%;
+    background-color: red;
+}
+
+
+
 /* Configruações da logo do bt*/
 .img-fundo {
     display: flex;
