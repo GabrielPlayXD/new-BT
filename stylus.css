@@ -64,6 +64,9 @@ header ul a:hover {
     height: 500px;
     width: 100%;
     padding: 0px;
+    display: Flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(imagem/natal.png);
     background-position: center center;
     background-attachment: cover;
@@ -74,12 +77,6 @@ header ul a:hover {
 
 
 /* Configruações da logo do bt*/
-.img-fundo {
-    display: Flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px; 
-}
 
 .img-fundo img {
     height: 50%;
