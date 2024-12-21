@@ -67,7 +67,7 @@ header ul a:hover {
     background-image: url(imagem/natal.png);
     background-position: center center;
     background-attachment: cover;
-    background-color: red;
+    background-color: rgb(85, 120, 142);
     color: red;
 }
 
