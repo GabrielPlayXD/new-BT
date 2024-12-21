@@ -2,12 +2,13 @@
     box-sizing: border-box;
 }
 
+/* Cor de fundo da pagina e fonte das letras */
 body {
     background-color: rgb(255, 255, 255);
     margin: 0;
     font-family: Arial, sans-serif;
 }
-
+/* Configurações de cor e de posição do header */
 header {
     position: fixed;
     top: 0;
@@ -22,7 +23,7 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     z-index: 1000;
 }
-
+/* Configurações de tamanho e espaçamento do header */
 header ul {
     list-style: none;
     margin: 0;
@@ -30,7 +31,7 @@ header ul {
     display: flex;
     gap: 15px;
 }
-
+/*Configurações dos textos do header */
 header ul a {
     font-size: 1.2rem;
     font-weight: bold;
@@ -40,7 +41,7 @@ header ul a {
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
 }
-
+/* Configurações de transição quando o mouse passa em cima dos textos do header */
 header ul a:hover {
     background-color: rgba(255, 255, 255, 0.2);
     color: #fff;
@@ -48,7 +49,7 @@ header ul a:hover {
     border-radius: 20px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
-
+/* Configruações da logo do bt*/
 .img-fundo {
     display: flex;
     justify-content: center;
@@ -66,13 +67,7 @@ header ul a:hover {
     opacity: 1;
 }
 
-.content {
-    margin: 20px;
-    padding: 20px;
-    font-size: 1rem;
-    text-align: center;
-}
-
+/* Isso aqui mantem todo conteudo na vertical sem precisar deslizar pra horizontal */
 html, body {
     overflow-x: hidden; 
     width: 100%; 
@@ -83,6 +78,7 @@ html, body {
     box-sizing: border-box; 
 }
 
+/* Ajuste pra telas do tamanho de tablet */
 @media (max-width: 1024px) { 
     header {
         position: fixed;
@@ -113,7 +109,7 @@ html, body {
         font-size: 1rem;
     }
 }
-
+/* Ajuste pra telas do tamanho de celular */
 @media (max-width: 768px) { 
     header {
         padding: 10px 15px;
@@ -137,7 +133,7 @@ html, body {
         font-size: 0.9rem;
     }
 }
-
+/* Ajuste pra telas do tamanho de celulares pequenos */
 @media (max-width: 480px) { 
     header {
         padding: 8px 10px;
