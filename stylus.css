@@ -1,11 +1,19 @@
+:root{
+    --text: #cdcae1;
+    --background: #1d1c1e;
+    --primary: #6c38d4;
+    --secondary: #b9b7d7;
+    --accent: #433bff;
+}
+
 * {
     box-sizing: border-box;
 }
 
 /* Cor de fundo da pagina e fonte das letras */
 body {
-    background-color: #1d1c1e;
-    margin: 0;
+    background-color: --background;
+    margin: 0px;
     font-family: Arial, sans-serif;
 }
 /* Configurações de cor e de posição do header */
