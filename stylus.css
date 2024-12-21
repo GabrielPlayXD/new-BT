@@ -12,7 +12,7 @@
 
 /* Cor de fundo da pagina e fonte das letras */
 body {
-    background-color: --background;
+    background-color:  #1d1c1e;
     margin: 0px;
     font-family: Arial, sans-serif;
 }
