@@ -1,4 +1,4 @@
-
+/* Transição de opacidade da header */
 const header = document.querySelector('header');
 const imgFundo = document.querySelector('.img-fundo');
 
