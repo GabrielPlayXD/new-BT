@@ -52,9 +52,12 @@ header ul a:hover {
 
 /* Configurações da area 1 */
 .area-1 {
-    height: 200px;
+    height: 500px;
     width: 100%;
+    background-image: url(imagem/natal.png);
+    background-attachment: cover;
     background-color: red;
+    color: red;
 }
 
 
