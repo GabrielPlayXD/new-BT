@@ -85,6 +85,7 @@ header ul a:hover {
     left: 50%;
     transform: translate(-50%, -50%); 
     z-index: 2; 
+    pointer-events: none;
 }
 
 .img-fundo-02 {
@@ -94,6 +95,7 @@ header ul a:hover {
     left: 50%; 
     transform: translate(-50%, -50%); 
     z-index: 1; 
+    pointer-events: none;
     opacity: 0;
 }
 
@@ -126,6 +128,7 @@ html, body {
     .img-fundo-02{
         width: 40%;
         opacity: 100%;
+        pointer-events: none;
     }
 
     header ul {
