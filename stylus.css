@@ -62,7 +62,7 @@ header ul a:hover {
     height: 500px;
     width: 100%;
     padding: 0px;
-    display: Flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(imagem/natal.png);
@@ -70,16 +70,31 @@ header ul a:hover {
     background-attachment: cover;
     background-color: rgb(85, 120, 142);
     color: red;
+    position: relative;
 }
 
 
 
 /* Configruações da logo do bt*/
 
-.img-fundo img {
-    padding: 1vh;
 
+.img-fundo {
+    width: 50%;
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    z-index: 2; 
+}
 
+.img-fundo-02 {
+    width: 50%;
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    z-index: 1; 
+    opacity: 0;
 }
 
 /* Isso aqui mantem todo conteudo na vertical sem precisar deslizar pra horizontal */
@@ -101,6 +116,16 @@ html, body {
         left: 0;
         width: 100%;
         padding: 12px 20px;
+    }
+
+    .img-fundo{
+        opacity: 0%;
+
+    }
+
+    .img-fundo-02{
+        width: 40%;
+        opacity: 100%;
     }
 
     header ul {
